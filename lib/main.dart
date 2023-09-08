@@ -11,6 +11,7 @@ class BusniessCardApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
         home: Scaffold(
           backgroundColor: const Color(0xFF2B475E),
             body: Column(
